@@ -268,4 +268,4 @@ md=[['Linear Regression',msetr,math.sqrt(msetr),scoretr],['Lasso Regression',mse
 head=['Model Name','MSE','RMSE','R2']
 print(tabulate(md,headers=head,tablefmt='grid'))
 
-#This is the end of the code
+#This is the end of the code!
