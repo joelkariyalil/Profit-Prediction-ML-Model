@@ -267,3 +267,5 @@ from tabulate import tabulate
 md=[['Linear Regression',msetr,math.sqrt(msetr),scoretr],['Lasso Regression',mseltr,math.sqrt(mseltr),scoreltr],['Quantile Reression',mseqrtr,math.sqrt(mseqrtr),scoreqrtr],['Elastic Net Regression',mseqrtr,math.sqrt(mseqrtr),scoreenr],['Poisson Regression',mseprtr,math.sqrt(mseprtr),scoreprtr]]
 head=['Model Name','MSE','RMSE','R2']
 print(tabulate(md,headers=head,tablefmt='grid'))
+
+#This is the end of the code
